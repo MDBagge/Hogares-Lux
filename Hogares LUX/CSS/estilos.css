@@ -58,6 +58,7 @@ h4{
     max-width: 120rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 10rem 0 10rem;
 
 }
 .header-content{
@@ -105,10 +106,11 @@ h4{
     text-align: center;
     justify-content: center;
 }
+
+
 .container-anuncios{
     display: flex;
     justify-content: space-between;
-    padding: 0 4rem 0rem 4;
     flex-wrap: wrap;
 }
 .anuncio{ 
@@ -199,7 +201,8 @@ h4{
     display: flex;
     justify-content: space-evenly;
     font-weight: 600;
-    ;
+    max-width: 500px;
+    flex: 1;
 }
 .iconos-caract li{
     display: flex;
@@ -337,4 +340,12 @@ span{
     font-size: 2rem;
     margin: 0;
     padding: 1rem 0 3rem 0;
+}
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-centrado{
+    max-width: 95rem;
 }
